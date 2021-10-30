@@ -6,14 +6,24 @@
     <%= f.text_field :plan, class: 'text-input' %>
     <%= f.submit '保存' %>
   <% end %>
+<<<<<<< HEAD
   <div class="calendar row">
     <%= weeks_day_lists(day)%>
-        </div>
+=======
+</div>
         <ul class='content'>
         <% if day[:plans].length != 0 %>
           <% day[:plans].each do |plan| %>
             <li class='plan-list'>・<%= plan %></li>
+<<<<<<< HEAD
         <% end %>
         </ul>
       </div>
     <% end %>
+=======
+          <% end %>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+>>>>>>> parent of 971b4d4 (lssue3)
