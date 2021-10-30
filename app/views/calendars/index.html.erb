@@ -6,14 +6,24 @@
     <%= f.text_field :plan, class: 'text-input' %>
     <%= f.submit '保存' %>
   <% end %>
+<<<<<<< HEAD
   <div class="calendar row">
     <%= weeks_day_lists(day)%>
         </div>
+=======
+  
+  <div class='calendar'>
+      <% @week_days.each do |day| %>
+>>>>>>> parent of 0fbede7 (lsser2)
         <ul class='content'>
         <% if day[:plans].length != 0 %>
           <% day[:plans].each do |plan| %>
             <li class='plan-list'>・<%= plan %></li>
+<<<<<<< HEAD
         <% end %>
         </ul>
       </div>
     <% end %>
+=======
+          <% end %>
+>>>>>>> parent of 0fbede7 (lsser2)
