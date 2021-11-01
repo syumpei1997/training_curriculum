@@ -36,7 +36,7 @@ class CalendarsController < ApplicationController
       end
 
       wday_num = ['0','1','2','3','4','5','6']
-      if(wday_num = 7)
+      if(wday_num >= 7)
         wday_num = wday_num -7
       end
 
