@@ -1,4 +1,4 @@
-
+<div>
   <%= form_with model: @plan, url: calendars_path, class: 'form' do |f| %>
     <%= f.label :日付を選択, class: 'lavel' %>
     <%= f.date_field :date, class: 'date-select' %>
@@ -9,7 +9,6 @@
   <% end %>
 </div>
 <div>
-    <% end %>
   <div class='calendar'>
     <% @week_days.each do |day| %>
       <div class='item'>
@@ -25,4 +24,5 @@
         </ul>
       </div>
     <% end %>
-    </div>
+  </div>
+</div>
