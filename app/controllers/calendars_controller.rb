@@ -33,7 +33,7 @@ class CalendarsController < ApplicationController
            today_plans.push(plan.plan) if plan.date == @todays_date + x
          end
 
-         wday_num = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
+         wday_num = 7
           if wday_num. == 7
             wday_num = wday_num -7
           end
